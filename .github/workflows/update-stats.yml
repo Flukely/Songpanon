@@ -1,5 +1,4 @@
 name: Update GitHub Stats
-
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -17,13 +16,16 @@ jobs:
 
       - name: Fetch SVGs from API
         run: |
-          curl -f -s -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=Songpanon&show_icons=true&theme=radical"
-          curl -f -s -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=Songpanon&layout=compact&theme=radical"
+          curl -s -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=Flukely&show_icons=true&theme=radical"
+          curl -s -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=Flukely&layout=compact&theme=radical"
+
+          if ! grep -q "<svg" github-stats.svg; then echo "Error fetching stats"; rm -f github-stats.svg; fi
+          if ! grep -q "<svg" top-langs.svg; then echo "Error fetching langs"; rm -f top-langs.svg; fi
 
       - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add github-stats.svg top-langs.svg
-          # จะ commit ก็ต่อเมื่อไฟล์รูปมีการเปลี่ยนแปลงเท่านั้น
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update github stats svgs" && git push)
+          [ -f github-stats.svg ] && git add github-stats.svg
+          [ -f top-langs.svg ] && git add top-langs.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: fix and update github stats svgs" && git push)

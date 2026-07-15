@@ -16,14 +16,11 @@ I'm a Computer Science graduate passionate about building robust web application
 *   **Backend & Frameworks:**
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="20" /> Spring,
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" height="20" /> Hibernate,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" height="20" /> Flask,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" height="20" /> Node.js
+    <i class="devicon-flask-original"></i> Flask,
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" /> Node.js
 *   **Databases:**
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="20" /> MySQL
 *   **Tools:** Git, n8n, API Integrations
-
-![GitHub Stats](./github-stats.svg)
-![Top Langs](./top-langs.svg)
 
 ### 🌱 Currently Exploring
 *   Advancing my skills in Backend technologies (Node.js/TypeScript).

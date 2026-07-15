@@ -22,8 +22,8 @@ I'm a Computer Science graduate passionate about building robust web application
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="20" /> MySQL
 *   **Tools:** Git, n8n, API Integrations
 
-![GitHub Stats](https://flukely-readme-stats.vercel.app/api?username=Flukely&show_icons=true&theme=radical)
-![Top Langs](https://flukely-readme-stats.vercel.app/api/top-langs?username=Flukely&layout=compact&theme=radical)
+![GitHub Stats](https://flukely-readme-stats.vercel.app/api?username=Flukely&show_icons=true&theme=radical&v=1)
+![Top Langs](https://flukely-readme-stats.vercel.app/api/top-langs?username=Flukely&layout=compact&theme=radical&v=1)
 
 ### 🌱 Currently Exploring
 *   Advancing my skills in Backend technologies (Node.js/TypeScript).

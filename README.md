@@ -23,8 +23,8 @@ I'm a Computer Science graduate passionate about building robust web application
 *   **Tools:** Git, n8n, API Integrations
 
 ### 🛠️ 📊 My GitHub Stats
-![GitHub Stats](https://flukely-readme-stats.vercel.app/api?username=Flukely&show_icons=true&theme=radical&v=1)
-![Top Langs](https://flukely-readme-stats.vercel.app/api/top-langs?username=Flukely&layout=compact&theme=radical&v=1)
+![GitHub Stats](https://flukely-readme-stats.vercel.app/api?username=Flukely&show_icons=true&hide_border=true&bg_color=00000000&title_color=fff&text_color=fff&icon_color=fff&v=2)
+![Top Langs](https://flukely-readme-stats.vercel.app/api/top-langs?username=Flukely&layout=compact&hide_border=true&bg_color=00000000&title_color=fff&text_color=fff&v=2)
 
 ### 🌱 Currently Exploring
 *   Advancing my skills in Backend technologies (Node.js/TypeScript).

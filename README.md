@@ -16,8 +16,8 @@ I'm a Computer Science graduate passionate about building robust web application
 *   **Backend & Frameworks:**
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="20" /> Spring,
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" height="20" /> Hibernate,
-    <i class="devicon-flask-original"></i> Flask,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" /> Node.js
+    <i class="devicon-flask-original" height="20"></i> Flask,
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="20" /> Node.js
 *   **Databases:**
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="20" /> MySQL
 *   **Tools:** Git, n8n, API Integrations
